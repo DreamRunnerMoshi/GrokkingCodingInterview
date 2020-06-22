@@ -8,4 +8,4 @@ If you like algorithms of this course, please buy this course.
 
 **Arrangement of solution**
 
-There is a console dotnet core project and a xUnit test project for every chapter. And for event lesson of a chapter, there is file named as lesson name.
+There is a console dotnet core project and a xUnit test project for every chapter. And for every lesson of a chapter, there is file named as lesson name.
