@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\GrokkingCodingInterview\SlidingWindow.csproj" />
+    <ProjectReference Include="..\SlidingWindow\SlidingWindow.csproj" />
   </ItemGroup>
 
 </Project>
