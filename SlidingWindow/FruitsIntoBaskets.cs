@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace SlidingWindow
 {
@@ -16,7 +15,6 @@ namespace SlidingWindow
 
             while (windowEnd < array.Length)
             {
-
                 char c = array[windowEnd];
                 if (!dictionary.ContainsKey(c))
                 {
@@ -33,10 +31,10 @@ namespace SlidingWindow
                         dictionary.Remove(startChar);
                     }
                 }
+
                 maxSize = Math.Max(windowEnd - windowStart + 1, maxSize);
                 windowEnd++;
             }
-
             return maxSize;
         }
     }
