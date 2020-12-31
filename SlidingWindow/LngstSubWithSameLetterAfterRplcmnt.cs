@@ -3,6 +3,11 @@ using System.Collections.Generic;
 
 namespace SlidingWindow
 {
+
+    /// <summary>
+    /// By this algorithm
+    /// https://leetcode.com/problems/max-consecutive-ones-iii/
+    /// </summary>
     public class LngstSubWithSameLetterAfterRplcmnt
     {
         public int GetLongestSubstringLength(string input, int k)

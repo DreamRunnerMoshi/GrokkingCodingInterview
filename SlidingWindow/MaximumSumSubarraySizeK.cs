@@ -1,6 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿
+/// <summary>
+/// https://leetcode.com/problems/grumpy-bookstore-owner/
+/// Small improvement needed
+/// </summary>
 
 namespace SlidingWindow
 {

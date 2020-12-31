@@ -6,7 +6,6 @@ namespace SlidingWindow
 {
     public class NoRepeatSubstring
     {
-
         public int GetMaxSubstringLength(string input)
         {
             int widowStart = 0;
