@@ -1,16 +1,17 @@
 public class ParkingSystem {
 
-    Dictionary<int, int> typeCountMap = new Dictionary<int, int>();
+    int [] typeCountMap = new int [3];
     
     public ParkingSystem(int big, int medium, int small) {
-        typeCountMap[1] = big;
-        typeCountMap[2] = medium;
-        typeCountMap[3] = small;
+        typeCountMap[0] = big;
+        typeCountMap[1] = medium;
+        typeCountMap[2] = small;
     }
     
     public bool AddCar(int carType) {
-        if(typeCountMap[carType]>0) {
-            typeCountMap[carType]--;
+        
+        if(typeCountMap[carType - 1]>0) {
+            typeCountMap[carType-1]--;
             return true;
         }
         return false;
