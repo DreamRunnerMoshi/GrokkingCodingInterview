@@ -7,10 +7,7 @@ public class Solution {
         
         for(int i=0; i<mid; i++) {
             newArray[i*2] = nums[i];
-        }
-        
-         for(int i=1; i<=mid; i++) {
-            newArray[i*2 - 1] = nums[mid+i-1];
+            newArray[i*2 + 1] = nums[mid+i];
         }
         
         return newArray;
