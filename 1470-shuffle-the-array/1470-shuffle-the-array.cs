@@ -1,7 +1,7 @@
 public class Solution {
     public int[] Shuffle(int[] nums, int n) {
-        var l = nums.Length;
-        var mid = l/2;
+        
+        var mid = n;
         
         var newArray = new int [2*n];
         
